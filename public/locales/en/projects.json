@@ -54,58 +54,6 @@
       "repoUrl": "https://github.com/jcalarcon98/events-information"
     },
     {
-      "id": 3,
-      "title": "Portfolio Manager",
-      "description": "GraphQL API to manage personal information",
-      "features": [
-        {
-          "id": 1,
-          "name": "JWT authentication"
-        },
-        {
-          "id": 2,
-          "name": "Send Emails Automatically"
-        },
-        {
-          "id": 3,
-          "name": "Upload Images"
-        },
-        {
-          "id": 4,
-          "name": "Limit time password recovery"
-        },
-        {
-          "id": 5,
-          "name": "GitHub Actions Deploy"
-        }
-      ],
-      "stack": [
-        {
-          "id": 1,
-          "name": "NodeJS"
-        },
-        {
-          "id": 2,
-          "name": "NestJs"
-        },
-        {
-          "id": 3,
-          "name": "GraphQL"
-        },
-        {
-          "id": 4,
-          "name": "Postgres"
-        },
-        {
-          "id": 5,
-          "name": "Docker"
-        }
-      ],
-      "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/nest-backend-portfolio",
-      "demoUrl": "https://jcalarcon.me/portfolio/graphql"
-    },
-    {
       "id": 4,
       "title": "Twitter Clone",
       "description": "Basic RESTful API to simulate twitter functionalities",
