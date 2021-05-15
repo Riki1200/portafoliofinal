@@ -2,10 +2,10 @@
   "title" : "Projects",
   "subtitle": "Some Things I’ve Built",
   "projects": [
-    {
+      {
       "id": 1,
-      "title": "Personal Portfolio",
-      "description": "Website to show all relevant information about me.",
+      "title": "Portafolio Personal",
+      "description": "Web site for show all the information about me.",
       "features": [
         {
           "id": 1,
@@ -27,17 +27,21 @@
         } 
       ],
       "type": "Frontend",
-      "repoUrl": "https://github.com/jcalarcon98/personal-portfolio",
-      "demoUrl": "https://jcalarcon.me"
+      "repoUrl": "https://github.com/Riki1200/portafoliofinal",
+      "demoUrl": ""
     },
     {
       "id": 2,
-      "title": "Events information",
-      "description": "RESTful API to generate custom .docx files",
+      "title": "Angular + NestJS",
+      "description": "My learning about NestJS and Angular",
       "features": [
         {
           "id": 1,
-          "name": "Automatic .docx file generation"
+          "name": "JWT Token auth for user"
+        },
+        {
+          "id": 2,
+          "name": "RxJS for reactive programming"
         }
       ],
       "stack": [
@@ -47,64 +51,58 @@
         },
         {
           "id": 2,
-          "name": "Express"
-        }
-      ],
-      "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/events-information"
-    },
-    {
-      "id": 4,
-      "title": "Twitter Clone",
-      "description": "Basic RESTful API to simulate twitter functionalities",
-      "features": [
-        {
-          "id": 1,
-          "name":  "JWT authentication"
-        },
-        {
-          "id": 2,
-          "name": "Code Coverage: 89%"
+          "name": "NestJS"
         },
         {
           "id": 3,
-          "name": "Swagger Documentation"
-        },
-        {
-          "id": 4,
-          "name": "GitHub Actions Deploy"
+          "name": "AngularJS"
         }
+      ],
+      "type": "Backend",
+      "repoUrl": "https://github.com/Riki1200/nestjsapp"
+    },
+    {
+      "id": 3,
+      "title": "Flask API",
+      "description": "Test of framework Flask Python,consuming a fake API with Youtube",
+      "features": [
+        {
+          "id": 1,
+          "name": "JWT Autenticación"
+        }
+
+       
       ],
       "stack": [
         {
           "id": 1,
-          "name": "DRF"
-        },
-        {
-          "id": 2,
-          "name": "Postgres"
-        },
-        {
-          "id": 3,
-          "name": "Docker"
+          "name": "Python"
         }
       ],
       "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/drf-twitter-clone",
-      "demoUrl": "https://jcalarcon.me/twitter/swagger/"
+      "repoUrl": "https://github.com/Riki1200/flaskapi",
+      "demoUrl": ""
     },
     {
-      "id": 5,
-      "title": "Syllabus Tracking Information",
-      "description": "RESTful API to generate custom .docx files with statistics graphs",
+      "id": 4,
+      "title": "Aplicacion de personajes historicos",
+      "description": "We can adding, deleting, updating and reading about about characters historical in the world",
       "features": [
         {
           "id": 1,
-          "name":  "Automatic .docx file generation"
+          "name":  "CRUD(CREATE,READ,UPDATE AND DELETED)"
         },
         {
           "id": 2,
-          "name":  "Statistics graphs generation"
+          "name":  "Styled-Components, library for created reusable components with CSS embedded"
+        },
+        {
+          "id": 3,
+          "name": "JWT Token for manager sessions users"
+        },
+        {
+          "id": 4,
+          "name": "MongoDB, as databse"
         }
       ],
       "stack": [
@@ -115,38 +113,106 @@
         {
           "id": 2,
           "name":  "Express"
+        },
+        {
+          "id": 3,
+          "name": "MongoDB"
         }
       ],
       "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/SSPM-BACKEND"
+      "repoUrl": "https://github.com/Riki1200/frotendandbackend"
     },
     {
-      "id": 6,
-      "title": "Countries Application",
-      "description": "Application to know the different countries for each continent.",
+      "id": 5,
+      "title": "Calculator with Kotlin",
+      "description": "Calculator make in Kotlin, for basic operations...",
       "features": [
         {
           "id": 1,
-          "name":  "Light/Dark mode"
+          "name":  "Basic operation"
+        }, {
+          "id": 2,
+          "name": "Updating"
+        },
+        {
+          "id": 3,
+          "name": "Grandle"
         }
       ],
       "stack": [
         {
           "id": 1,
-          "name": "HTML"
+          "name":  "Koltin"
+        },
+        {
+          "id":2,
+          "name": "HunterBuilder"
+        }
+      ],
+      "type": "Android|Kotlin",
+      "repoUrl": "https://github.com/Riki1200/kotlincalculatorapp"
+    },
+     {
+      "id": 6,
+      "title": "NextJS learning",
+      "description": "Learning of NextJS",
+      "features": [
+        {
+          "id": 1,
+          "name": "Context API"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS" 
         },
         {
           "id": 2,
-          "name": "CSS"
+          "name": "NextJS"
         },
         {
           "id": 3,
-          "name": "ReactJs"
+          "name": "ReactJS"
         }
       ],
-      "type": "Frontend",
-      "repoUrl": "https://github.com/jcalarcon98/react-countries",
-      "demoUrl": "https://jcalarcon98.github.io/react-countries/#/"
+      "type": "Backend|Frontend",
+      "repoUrl": "https://github.com/Riki1200/nextapp"
+    },
+     {
+      "id": 7,
+      "title": "Chat with Sequelize, SocketIO and more",
+      "description": "Implementing the ORM of Sequelize, SocketIO and Typescript for this one chat",
+      "features": [
+        {
+          "id": 1,
+          "name": "Sequelize ORM"
+        },
+        {
+          "id":2,
+          "name": "SocketIO"
+        },
+        {
+          "id": 3,
+          "name": "MySQL"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS" 
+        },
+        {
+          "id": 2,
+          "name": "MySQL"
+        },
+        {
+          "id": 3,
+          "name": "ReactJS"
+        }
+      ],
+      "type": "Backend|Frontend",
+      "repoUrl": "https://github.com/Riki1200/chattypecript"
     }
-  ]
+  ] 
 }

@@ -27,17 +27,21 @@
         } 
       ],
       "type": "Frontend",
-      "repoUrl": "",
+      "repoUrl": "https://github.com/Riki1200/portafoliofinal",
       "demoUrl": ""
     },
     {
       "id": 2,
-      "title": "Información de eventos",
-      "description": "RESTful API para generar archivos .docx personalizados",
+      "title": "Angular + NestJS",
+      "description": "Aprendizaje sobre NestJS y Angular",
       "features": [
         {
           "id": 1,
-          "name": "Generación automática de archivos .docx"
+          "name": "JWT Token para usuarios"
+        },
+        {
+          "id": 2,
+          "name": "RxJS para Programacion Reactiva"
         }
       ],
       "stack": [
@@ -47,64 +51,58 @@
         },
         {
           "id": 2,
-          "name": "Express"
+          "name": "NestJS"
+        },
+        {
+          "id": 3,
+          "name": "AngularJS"
         }
       ],
       "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/events-information"
+      "repoUrl": "https://github.com/Riki1200/nestjsapp"
     },
     {
       "id": 4,
-      "title": "Clon de Twitter",
-      "description": "RESTful API Basica para simular las funcionalidades de Twitter",
+      "title": "Flask API",
+      "description": "Prueba de framework Flask Python, consumiendo una FAke API de Youtube",
       "features": [
         {
           "id": 1,
           "name": "JWT Autenticación"
-        },
-        {
-          "id": 2,
-          "name": "Code Coverage: 89%"
-        },
-        {
-          "id": 3,
-          "name": "Documentación con Swagger"
-        },
-        {
-          "id": 4,
-          "name": "Despliegue con Github Actions"
         }
+
+       
       ],
       "stack": [
         {
           "id": 1,
-          "name": "DRF"
-        },
-        {
-          "id": 2,
-          "name": "Postgres"
-        },
-        {
-          "id": 3,
-          "name": "Docker"
+          "name": "Python"
         }
       ],
       "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/drf-twitter-clone",
-      "demoUrl": "https://jcalarcon.me/twitter/swagger/"
+      "repoUrl": "https://github.com/Riki1200/flaskapi",
+      "demoUrl": ""
     },
     {
       "id": 5,
-      "title": "Información de Seguimiento al sílabo",
-      "description": "RESTful API pra generar archivos .docx personalizados con gráficos estadísticos",
+      "title": "Aplicacion de personajes historicos",
+      "description": "Podras agregar, eliminar, actualizar y leer sobre personajes historicos en el mundo",
       "features": [
         {
           "id": 1,
-          "name":  "Generación automática de Archivos .docx"
+          "name":  "CRUD(CREATE,READ,UPDATE AND DELETED)"
         },
         {
           "id": 2,
-          "name":  "Generación automática de Gráficos estadísticos"
+          "name":  "Styled-Components, librerias para componentes con CSS enbembido"
+        },
+        {
+          "id": 3,
+          "name": "JWT, para administrar token se session de usuarios"
+        },
+        {
+          "id": 4,
+          "name": "MongoDB, como base de datos"
         }
       ],
       "stack": [
@@ -115,38 +113,100 @@
         {
           "id": 2,
           "name":  "Express"
+        },
+        {
+          "id": 3,
+          "name": "MongoDB"
         }
       ],
       "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/SSPM-BACKEND"
+      "repoUrl": "https://github.com/Riki1200/frotendandbackend"
     },
     {
       "id": 6,
-      "title": "Aplicación de Paises",
-      "description": "Aplicación para conocer los diferentes paises de cada continente.",
+      "title": "Calculadora con Kotlin",
+      "description": "Calculadora hecha en Kotlin, lenguaje de programacion movil",
       "features": [
         {
           "id": 1,
-          "name":  "Light/Dark mode"
+          "name":  "Operaciones basicas de una Calculadora Normal"
         }
       ],
       "stack": [
         {
           "id": 1,
-          "name": "HTML"
+          "name":  "Koltin"
+        },
+        {
+          "id":2,
+          "name": "HunterBuilder"
+        }
+      ],
+      "type": "Android|Kotlin",
+      "repoUrl": "https://github.com/Riki1200/kotlincalculatorapp"
+    },
+     {
+      "id": 2,
+      "title": "NextJS aprendizaje",
+      "description": "Aprendizaje de NextJS",
+      "features": [
+        {
+          "id": 1,
+          "name": "Context API"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS" 
         },
         {
           "id": 2,
-          "name": "CSS"
+          "name": "NextJS"
         },
         {
           "id": 3,
-          "name": "ReactJs"
+          "name": "ReactJS"
         }
       ],
-      "type": "Frontend",
-      "repoUrl": "https://github.com/jcalarcon98/react-countries",
-      "demoUrl": "https://jcalarcon98.github.io/react-countries/#/"
+      "type": "Backend|Frontend",
+      "repoUrl": "https://github.com/Riki1200/nextapp"
+    },
+     {
+      "id": 2,
+      "title": "Chat con Sequelize, SocketIO y mas",
+      "description": "Implementando el ORM de Sequelize, SocketIO y Typescript para este chat",
+      "features": [
+        {
+          "id": 1,
+          "name": "Sequelize ORM"
+        },
+        {
+          "id":2,
+          "name": "SocketIO"
+        },
+        {
+          "id": 3,
+          "name": "MySQL"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS" 
+        },
+        {
+          "id": 2,
+          "name": "MySQL"
+        },
+        {
+          "id": 3,
+          "name": "ReactJS"
+        }
+      ],
+      "type": "Backend|Frontend",
+      "repoUrl": "https://github.com/Riki1200/chattypecript"
     }
+    
   ]
 }
