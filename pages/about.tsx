@@ -31,7 +31,7 @@ const AboutPage = () => {
             <div className='flex flex-col xl:flex-row-reverse'>
               <div className='flex justify-center xl:w-2/5'>
                 <div className='flex w-3/5 justify-center items-center lg:w-9/12'>
-                  <img className='rounded-xl bg-blue-500' src='/profile.png' width={230} height={230} loading='lazy' alt='Profile' />
+                  <img className='rounded-xl bg-blue-500' src='/sit.svg' width={230} height={230} loading='lazy' alt='Profile' />
                 </div>
               </div>
               <div className='flex flex-col justify-center text-gray-600 dark:text-white mt-2 font-custom xl:w-4/5'>
